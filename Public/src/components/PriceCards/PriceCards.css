@@ -1,0 +1,107 @@
+.plansContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    color: aliceblue;
+    margin: 10px 0 auto ;
+   
+    height: 75px;
+    text-align: center;
+    margin-bottom: 400px;
+  
+    
+   margin-left: 75px;
+    font-family: 'Poppins', sans-serif;
+
+  
+
+
+}
+
+.plansContainer h1 {
+    font-size: 55px;
+    font-weight: bolder;
+
+ 
+}
+
+.saving3MonthsButton{
+    position: absolute;
+    top: 405px;
+    left: 48.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+    background-color: rgb(154, 53, 236);
+    color: aliceblue;
+    border: none;
+    border-radius: 40px;
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+    z-index: 1; 
+    font-weight: bold;
+}
+
+.plansContainer h3 {
+    font-size: 32px;
+ 
+}
+.planDetails h3{
+    font-weight: bolder;
+}
+.plansContainer p {
+    font-weight: 350;
+ 
+}
+
+.plan3months,
+.plan12months,
+.plan1months {
+    background-color: inherit;
+    height: 340px;
+    width: 380px;
+    background-color: rgba(121, 55, 201, 0.095) ;
+    color: aliceblue;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 4px;
+    
+    
+
+    
+}
+.plan1months .choosePlanButton{
+    margin-top: 50px;
+}
+
+.plan12months{
+    border: 2px solid  rgb(154, 53, 236);
+  
+}
+.choosePlanButton{
+    width: 300px;
+    height:50px;
+    background-color: rgb(154, 53, 236);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 70px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: aliceblue;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: 2px solid transparent;
+ 
+}
+.choosePlanButton:hover{
+    border-color: aliceblue;
+    background-color: transparent;
+    color: aliceblue;
+}
+

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d092e;
+    color: aliceblue;
+    }
+    
+body{
+    color: #212529 ;
+    
+    }
+
+nav {
+    background-color: black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    margin: 10px;
+}
+.LogInButton{
+    border: none;
+    background-color: black;
+    font-weight: 500;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-right: 16px;
+    margin-left: auto;
+    font-size: 13px;
+}
+.SubscribeButton{
+    width: 200px;
+    height: 38px;
+    font-size: 13px;
+    background-color:#9a35ef;
+    font-weight: 500;
+    color: aliceblue;
+    border: none;
+    border-radius: 70px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 15%;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+}
+.SubscribeButton:hover{
+    background-color: aliceblue;
+    color: black;
+}
